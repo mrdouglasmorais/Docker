@@ -1,8 +1,11 @@
 # Módulo Docker - FC
 
+---
+
 ## Diagrama:
 ![Docker Diagram](architecture.drawio.svg)
 
+---
 
 ## Flags importantes do Docker:
 1. **`-d` ou `--detach`**: Executa o contêiner em segundo plano.
@@ -29,8 +32,28 @@
 8. **`--network`**: Conecta o contêiner a uma rede específica.
    - Exemplo: `docker run --network nome_rede nome_do_contêiner`
 
+---
+
+## Dockerfile:
+
+### Criando no docker hub a imagem:
+`docker build -t douglasmorais/nginx-vim:latest .`
+
+### Para conferir a imagem:
+`docker image`
+
+### Acessando a imagem com terminal usando o vim:
+`docker run it douglasmorais/nginx-vim bash`
+
+---
+
 ## Docker compose:
 
+---
+
 ## Como rodar localmente:
+
+---
+
 
 ### Por: Douglas Morais
